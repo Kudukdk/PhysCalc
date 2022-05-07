@@ -8,6 +8,9 @@ class HeatCapacityCalculator : public Calculator
 public:
     HeatCapacityCalculator(DataStorage * storage);
     double calculate() override;
+private:
+    void Tczh() ;
+     void Tras() ;
 };
 
 #endif // HEATCAPACITYCALCULATOR_H
